@@ -20,7 +20,13 @@ function even_or_odd(int $n): string {
     return "Odd";
   }
 }
+// Alternate solution
 function even_or_odd(int $n): string {
   return $n % 2 ? "Odd" : "Even";
+}
+
+//  4 "Remove String Spaces" - Given a string, strip all whitespace and return.
+function no_space(string $s): string {
+  return $s = preg_replace('/\s+/','',$s);
 }
 ?>
