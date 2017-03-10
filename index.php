@@ -29,4 +29,8 @@ function even_or_odd(int $n): string {
 function no_space(string $s): string {
   return $s = preg_replace('/\s+/','',$s);
 }
+// Better slternate solution?
+function no_space(string $s): string {
+  return $a = str_replace(" ", "", $s);
+}
 ?>
