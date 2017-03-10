@@ -56,4 +56,9 @@ function reverse($string) {
 function find_average($array) {
   return array_sum($array) / sizeof($array);
 }
+
+//  8 "Palindrome Strings" - Given string, write algorithm that returns boolean for "is it a Palindrome".
+function is_palindrome($line) {
+  return $line == strrev($line);
+}
 ?>
