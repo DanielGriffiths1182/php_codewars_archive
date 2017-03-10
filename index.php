@@ -51,4 +51,9 @@ function add($array) {
 function reverse($string) {
   return strrev($string);
 }
+
+//  7 "Calculate average" - Given an array of values, calculate the average. (I keep forgetting the ; after code)
+function find_average($array) {
+  return array_sum($array) / sizeof($array);
+}
 ?>

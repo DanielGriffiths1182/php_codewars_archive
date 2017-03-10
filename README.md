@@ -19,3 +19,5 @@
                  (SOLUTION): declare variables correctly, (;) at code blocks correctly.
 
 - 6 "Debug the functions EASY" - (INSTRUCTIONS): Given incorrect syntax, correct the syntax.
+
+- 7 "Calculate average" - Given an array of values, calculate the average. (I keep forgetting the ; after code)
