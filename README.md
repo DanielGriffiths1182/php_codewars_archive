@@ -17,3 +17,5 @@
 
 - 5 "Multiply" - (INSTRUCTIONS): The code does not execute properly. Try to figure out why.
                  (SOLUTION): declare variables correctly, (;) at code blocks correctly.
+
+- 6 "Debug the functions EASY" - (INSTRUCTIONS): Given incorrect syntax, correct the syntax.

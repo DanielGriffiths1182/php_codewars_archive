@@ -39,4 +39,16 @@ function no_space(string $s): string {
 function multiply($a, $b) {
   return $a * $b;
 };
+
+//  6 "Debug the functions EASY" - (INSTRUCTIONS): Given incorrect syntax, correct the syntax.
+//                                 (SOLUTION): array * array/arr + arr/string_reverse(string) are incorrect
+function multi($array) {
+  return array_product($array);
+}
+function add($array) {
+  return array_sum($array);
+}
+function reverse($string) {
+  return strrev($string);
+}
 ?>
