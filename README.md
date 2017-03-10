@@ -14,3 +14,6 @@
 - 3 "Even of Odd?" - Give an integer, return the string "Even" or the string "Odd" depending on the value of the integer.
 
 - 4 "Remove String Spaces" - Given a string, strip all whitespace and return.
+
+- 5 "Multiply" - (INSTRUCTIONS): The code does not execute properly. Try to figure out why.
+                 (SOLUTION): declare variables correctly, (;) at code blocks correctly.

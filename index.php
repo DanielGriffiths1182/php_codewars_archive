@@ -33,4 +33,10 @@ function no_space(string $s): string {
 function no_space(string $s): string {
   return $a = str_replace(" ", "", $s);
 }
+
+//  5 "Multiply" - (INSTRUCTIONS): The code does not execute properly. Try to figure out why.
+//                 (SOLUTION): declare variables correctly, ; at code blocks correctly
+function multiply($a, $b) {
+  return $a * $b;
+};
 ?>
