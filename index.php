@@ -92,4 +92,9 @@ function findShort($str){
   $pieces = explode(" ", $str);
   return sort($pieces);
 }
+
+//  12 (LVL 8) "Get the mean of an array" - Return the average of the given array rounded down to its nearest integer.
+function get_average($a) {
+  return floor(array_sum($a) / sizeof($a));
+}
 ?>
