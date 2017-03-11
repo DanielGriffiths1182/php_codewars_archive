@@ -64,13 +64,13 @@ function is_palindrome($line) {
   return $line == strrev($line);
 }
 
+//  9 (LVL 7) "Sum up the random string" - Given string with letters and numbers, extract the numbers and return sum.
 function sum_from_string(string $str): int {
   $match = [];
   preg_match_all('/([\d]+)/', $str, $match);
   return array_sum($match[0]);
 }
-
-//  9 (LVL 7) "Sum up the random string" - Given string with letters and numbers, extract the numbers and return sum.
+// Alternate Solution
 function sum_from_string(string $str): int {
     preg_match_all('/[0-9]+/', $str, $matches);
 
@@ -80,5 +80,9 @@ function sum_from_string(string $str): int {
 //  10 (LVL 8) "Opposite number" - Very simple, given a number, find its opposite.
 function opposite($n) {
   return $n >= 0 ? $n * -1 : abs($n);
+}
+// Alternate Solution
+function opposite($n) {
+  return -$n;
 }
 ?>
