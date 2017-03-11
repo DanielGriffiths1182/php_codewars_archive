@@ -76,4 +76,9 @@ function sum_from_string(string $str): int {
 
     return array_sum($matches[0]);
 }
+
+//  10 (LVL 8) "Opposite number" - Very simple, given a number, find its opposite.
+function opposite($n) {
+  return $n >= 0 ? $n * -1 : abs($n);
+}
 ?>

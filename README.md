@@ -3,7 +3,8 @@
 **Archive of completed CodeWars exercises, languages - PHP**
 
 *Short description and numbered in chronological order.*
-*///LEVEL => 8 = low, 1 = high
+
+*///LEVEL => 8 = low, 1 = high*
 *///TITLE*
 *///DESCRIPTION*
 
@@ -29,3 +30,5 @@
 - 8 (LVL 8) "Palindrome Strings" - Given string, write algorithm that returns boolean for "is it a Palindrome".
 
 - 9 (LVL 7) "Sum up the random string" - Given string with letters and numbers, extract the numbers and return sum.
+
+- 10 (LVL 8) "Opposite number" - Very simple, given a number, find its opposite.
