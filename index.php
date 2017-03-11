@@ -123,4 +123,14 @@ function basicOp($op, $val1, $val2) {
     };
   return $result;
 }
+
+//  14 (LVL 8) "Sum of positive" - You get an array of numbers, return the sum of all of the positives ones.
+function positive_sum($arr) {
+  $total = 0;
+
+  foreach($arr as $number) {
+  $number > 0 ? $total += $number : $total += 0;
+  };
+  return $total;
+}
 ?>

@@ -44,3 +44,5 @@
 
 - 13 (LVL 8) "Basic Mathematical Operations" - The function should take three arguments - operation(string/char),
  value1(number), value2(number). The function should return result of numbers after applying the chosen operation.
+
+- 14 (LVL 8) "Sum of positive" - You get an array of numbers, return the sum of all of the positives ones.
