@@ -32,3 +32,6 @@
 - 9 (LVL 7) "Sum up the random string" - Given string with letters and numbers, extract the numbers and return sum.
 
 - 10 (LVL 8) "Opposite number" - Very simple, given a number, find its opposite.
+
+- 11 (LVL 7) "Shortest Word" - x Simple, given a string of words, return the length of the shortest word(s). String will never be
+ empty and you do not need to account for different data types.
