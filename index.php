@@ -133,4 +133,9 @@ function positive_sum($arr) {
   };
   return $total;
 }
+
+//  15 (LVL 8) "Reversing Words in a String" - You need to write a function that reverses the words in a given string. 
+function reverse($string) {
+  return implode(' ', array_reverse(explode(" " , $string)));
+}
 ?>

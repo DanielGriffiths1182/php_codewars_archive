@@ -46,3 +46,5 @@
  value1(number), value2(number). The function should return result of numbers after applying the chosen operation.
 
 - 14 (LVL 8) "Sum of positive" - You get an array of numbers, return the sum of all of the positives ones.
+
+- 15 (LVL 8) "Reversing Words in a String" - You need to write a function that reverses the words in a given string. 
