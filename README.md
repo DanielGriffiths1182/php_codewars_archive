@@ -41,3 +41,6 @@
  script.
  Return the average of the given array rounded down to its nearest integer.
  The array will never be empty.
+
+- 13 (LVL 8) "Basic Mathematical Operations" - The function should take three arguments - operation(string/char),
+ value1(number), value2(number). The function should return result of numbers after applying the chosen operation.

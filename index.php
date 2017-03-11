@@ -97,4 +97,30 @@ function findShort($str){
 function get_average($a) {
   return floor(array_sum($a) / sizeof($a));
 }
+
+
+//  13 (LVL 8) "Basic Mathematical Operations" - The function should take three arguments - operation(string/char),
+//    value1(number), value2(number). The function should return result of numbers after applying the chosen operation.
+
+
+function basicOp($op, $val1, $val2) {
+  switch($op) {
+    case '*':
+      $result = $val1 * $val2;
+      break;
+
+    case '+':
+      $result = $val1 + $val2;
+      break;
+
+    case '-':
+      $result = $val1 - $val2;
+      break;
+
+    case '/':
+      $result = $val1 / $val2;
+      break;
+    };
+  return $result;
+}
 ?>
