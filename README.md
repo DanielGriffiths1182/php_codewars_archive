@@ -115,3 +115,6 @@
  parameter.
 
 - 24 (LVL 8) "String Repeat" - Write a function that repeats a string n number of times.
+
+- 25 (LVL 8) "Simple calculator" - NOTE: Better refactoring then last time using case blocks. / Write a function that takes a string
+ operator and performs operations with it.

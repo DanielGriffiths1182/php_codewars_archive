@@ -269,4 +269,17 @@ function howManyLightsabersDoYouOwn($name = '') {
 function repeatStr($n, $str) {
   return str_repeat($str, $n);
 }
+
+//  25 (LVL 8) "Simple calculator" - NOTE: Better refactoring then last time using case blocks.
+//  `                                Write a function that takes a string operator and performs operations with it.
+function calculator($a, $b, $sign) {
+  if (is_string ($a) || is_string ($b)) {  return 'unknown value'; }
+  switch ($sign) {
+    case "+" : return $a + $b ;
+    case "-" : return $a - $b ;
+    case "*" : return $a * $b ;
+    case "/" : return $a / $b ;
+    default : return 'unknown value';
+  }
+}
 ?>
