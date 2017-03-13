@@ -101,3 +101,6 @@
  In that case the returned structure of C will have its sz component equal to 0. (See the "Solution" and "Examples" tabs)
 
 - 21 (LVL 8) "Remove exclamation marks" - Write a function that removes all exclamation marks from string.
+
+- 22 (LVL 8) "Fake Binary" - Given a string of digits, you should replace any digit below 5 with '0' and any digit 5 and above with '1'.
+ Return the resulting string.

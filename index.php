@@ -229,4 +229,20 @@ function sqInRect($lng, $wdth) {
 function remove_exclamation_marks($string) {
   return preg_replace('/!/', '', $string);
 }
+
+//  22 (LVL 8) "Fake Binary" - Given a string of digits,
+// you should replace any digit below 5 with '0' and any digit 5 and above with '1'. Return the resulting string.
+function fake_bin(string $s): string {
+  $s = str_split($s);
+  foreach($s as &$num){
+    if ($num < 5) {
+      $num = 0;
+    }
+    else {
+      $num = 1;
+    }
+  }
+  $s = implode($s);
+  return $s;
+}
 ?>
