@@ -64,3 +64,9 @@
  degrees Celsius and returns the equivalent temperature in degrees Rømer.
 
  For example: celsius_to_romer(24) should return 20.1.
+
+ - 18 (LVL 8) "Jenny's Secret Message" - Jenny has written a function that returns a greeting for a user. However,
+ she's in love with Johnny, and would like to greet him slightly different. She added a special case to her function,
+ but she made a mistake.
+ 
+ Can you help her?
