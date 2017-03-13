@@ -224,4 +224,9 @@ function sqInRect($lng, $wdth) {
     }
   return $arr;
 }
+
+//  21 (LVL 8) "Remove exclamation marks" - Write a function that removes all exclamation marks from string.
+function remove_exclamation_marks($string) {
+  return preg_replace('/!/', '', $string);
+}
 ?>

@@ -89,7 +89,7 @@
 
   sqInRect(5, 3) should return [3, 2, 1, 1]
   sqInRect(3, 5) should return [3, 2, 1, 1]
-  
+
  Note:
 
  lng == wdth as a starting case would be an entirely different problem and the drawing is planned to be interpreted with lng !=
@@ -99,3 +99,5 @@
  kata so, in that case, return None/nil/null/Nothing. Return {} with C++.
 
  In that case the returned structure of C will have its sz component equal to 0. (See the "Solution" and "Examples" tabs)
+
+- 21 (LVL 8) "Remove exclamation marks" - Write a function that removes all exclamation marks from string.
