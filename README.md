@@ -52,3 +52,15 @@
 - 16 (LVL 8) "Find Maximum and Minimum Values of a List" - Your task is to make two functions, max and min (maximum and minimum in
  PHP) that take a(n) array/vector of integers list as input and outputs, respectively, the largest and lowest number in that
  array/vector.
+
+- 17 (LVL 7) "Thinkful - Number Drills: Rømer temperature" - You're writing an excruciatingly detailed alternate history novel set
+ in a world where Daniel Gabriel Fahrenheit was never born.
+
+ Since Fahrenheit never lived the world kept on using the Rømer scale, invented by fellow Dane Ole Rømer to this very day, skipping
+ over the Fahrenheit and Celsius scales entirely.
+
+ Your magnum opus contains several thousand references to temperature, but those temperatures are all currently in degrees Celsius.
+ You don't want to convert everything by hand, so you've decided to write a function, celsius_to_romer() that takes a temperature in
+ degrees Celsius and returns the equivalent temperature in degrees Rømer.
+
+ For example: celsius_to_romer(24) should return 20.1.

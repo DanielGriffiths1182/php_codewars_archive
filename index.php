@@ -148,4 +148,12 @@ function maximum($array) {
 function minimum($array) {
   return min($array);
 }
+
+//  17 (LVL 7) "Thinkful - Number Drills: Rømer temperature" - Your magnum opus contains several thousand references to
+// temperature, but those temperatures are all currently in degrees Celsius. You don't want to convert everything by hand,
+// so you've decided to write a function, celsius_to_romer() that takes a temperature in degrees Celsius and returns
+// the equivalent temperature in degrees Rømer.
+function celsius_to_romer($temp) {
+  return $temp * floatval(21/40) + 7.5;
+}
 ?>
