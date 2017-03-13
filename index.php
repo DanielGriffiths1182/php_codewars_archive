@@ -264,4 +264,9 @@ function howManyLightsabersDoYouOwn($name = '') {
       return 0;
     };
 };
+
+//  24 (LVL 8) "String Repeat" - Write a function that repeats a string n number of times.
+function repeatStr($n, $str) {
+  return str_repeat($str, $n);
+}
 ?>

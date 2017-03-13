@@ -113,3 +113,5 @@
 
  No starting help here -- you'll need to know how to write a function that accepts a parameter and returns a value based on that
  parameter.
+
+- 24 (LVL 8) "String Repeat" - Write a function that repeats a string n number of times.
