@@ -169,4 +169,22 @@ function greet($name) {
       return "Hello, $name!";
     }
 }
+
+//  19 (LVL 8) "Pre-FizzBuzz Workout #1" - Your inputs: a positive integer, n, greater than or equal to one. n is provided,
+// you have NO CONTROL over its value.
+
+// Your expected outputs: an array of positive integers from 1 to n
+
+// Your job is to write an algorithm that gets you from the input to the output.
+function pre_fizz($n) {
+  $output = [];
+  for ($x = 1; $x <= $n; $x++) {
+    array_push($output, $x);
+  }
+  return $output;
+}
+// Alternate Solution - Better Refactoring.. . . Duh. haha.
+function pre_fizz(int $n): array {
+  return range(1, $n);
+}
 ?>
