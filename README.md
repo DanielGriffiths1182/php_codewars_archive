@@ -4,9 +4,9 @@
 
 *Short description and numbered in chronological order.*
 
-*///LEVEL => 8 = low, 1 = high*
-*///TITLE*
-*///DESCRIPTION*
+*LEVEL => 8 = low, 1 = high*,
+*TITLE*,
+*DESCRIPTION*
 
 #PHP
 
