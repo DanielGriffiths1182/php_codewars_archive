@@ -1,20 +1,19 @@
 <!-- ///LEVEL => 8 = low, 1 = high ///TITLE ///DESCRIPTION  -->
 
 <?php
-// 1 (LVL 8) "Volume of a Cuboid" - Give dimensions of cube, execute the proper operation to return volume.
+// 1
 $kata = new class {
   public function get_volume_of_cuboid($length, $width, $height) {
     return $length * $width * $height;
   }
 };
 
-// 2 (LVL 8) "Keep Hydrated!" - Because Nathan knows it is important to stay hydrated, he drinks 0.5 litres of water per hour of cycling.
-// You get given the time and you need to return the number of litres Nathan will drink, rounded to the smallest value.
+// 2 
 function litres($t) {
   return floor($t / 2);
 }
 
-//  3 (LVL 8) "Even of Odd?" - Give an integer, return the string "Even" or the string "Odd" depending on the value of the integer.
+//  3 
 function even_or_odd(int $n): string {
   if ($n % 2 == 0) {
     return "Even";
@@ -22,28 +21,24 @@ function even_or_odd(int $n): string {
     return "Odd";
   }
 }
-// Alternate solution
 function even_or_odd(int $n): string {
   return $n % 2 ? "Odd" : "Even";
 }
 
-//  4 (LVL 8) "Remove String Spaces" - Given a string, strip all whitespace and return.
+//  4 
 function no_space(string $s): string {
   return $s = preg_replace('/\s+/','',$s);
 }
-// Better slternate solution?
 function no_space(string $s): string {
   return $a = str_replace(" ", "", $s);
 }
 
-//  5 (LVL 8) "Multiply" - (INSTRUCTIONS): The code does not execute properly. Try to figure out why.
-//                 (SOLUTION): declare variables correctly, ; at code blocks correctly
+//  5
 function multiply($a, $b) {
   return $a * $b;
 };
 
-//  6 (LVL 8) "Debug the functions EASY" - (INSTRUCTIONS): Given incorrect syntax, correct the syntax.
-//                                 (SOLUTION): array * array/arr + arr/string_reverse(string) are incorrect
+//  6
 function multi($array) {
   return array_product($array);
 }
@@ -54,55 +49,49 @@ function reverse($string) {
   return strrev($string);
 }
 
-//  7 (LVL 8) "Calculate average" - Given an array of values, calculate the average. (I keep forgetting the ; after code)
+//  7
 function find_average($array) {
   return array_sum($array) / sizeof($array);
 }
 
-//  8 (LVL 8) "Palindrome Strings" - Given string, write algorithm that returns boolean for "is it a Palindrome".
+//  8 
 function is_palindrome($line) {
   return $line == strrev($line);
 }
 
-//  9 (LVL 7) "Sum up the random string" - Given string with letters and numbers, extract the numbers and return sum.
+//  9
 function sum_from_string(string $str): int {
   $match = [];
   preg_match_all('/([\d]+)/', $str, $match);
   return array_sum($match[0]);
 }
-// Alternate Solution
 function sum_from_string(string $str): int {
     preg_match_all('/[0-9]+/', $str, $matches);
 
     return array_sum($matches[0]);
 }
 
-//  10 (LVL 8) "Opposite number" - Very simple, given a number, find its opposite.
+//  10
 function opposite($n) {
   return $n >= 0 ? $n * -1 : abs($n);
 }
-// Alternate Solution
 function opposite($n) {
   return -$n;
 }
 
-//  11 (LVL 7) "Shortest Word" - x Simple, given a string of words, return the length of the shortest word(s).
-//                               String will never be empty and you do not need to account for different data types.
+//  11
 function findShort($str){
   $pieces = explode(" ", $str);
   return sort($pieces);
 }
 
-//  12 (LVL 8) "Get the mean of an array" - Return the average of the given array rounded down to its nearest integer.
+//  12
 function get_average($a) {
   return floor(array_sum($a) / sizeof($a));
 }
 
 
-//  13 (LVL 8) "Basic Mathematical Operations" - The function should take three arguments - operation(string/char),
-//    value1(number), value2(number). The function should return result of numbers after applying the chosen operation.
-
-
+//  13
 function basicOp($op, $val1, $val2) {
   switch($op) {
     case '*':
@@ -124,7 +113,7 @@ function basicOp($op, $val1, $val2) {
   return $result;
 }
 
-//  14 (LVL 8) "Sum of positive" - You get an array of numbers, return the sum of all of the positives ones.
+//  14
 function positive_sum($arr) {
   $total = 0;
 
@@ -134,14 +123,12 @@ function positive_sum($arr) {
   return $total;
 }
 
-//  15 (LVL 8) "Reversing Words in a String" - You need to write a function that reverses the words in a given string.
+//  15 
 function reverse($string) {
   return implode(' ', array_reverse(explode(" " , $string)));
 }
 
-// 16 (LVL 8) "Find Maximum and Minimum Values of a List" - Your task is to make two functions,
-// max and min (maximum and minimum in PHP) that take a(n) array/vector of integers list as input and outputs,
-// respectively, the largest and lowest number in that array/vector.
+// 16 
 function maximum($array) {
   return max($array);
 }
@@ -149,18 +136,12 @@ function minimum($array) {
   return min($array);
 }
 
-//  17 (LVL 7) "Thinkful - Number Drills: Rømer temperature" - Your magnum opus contains several thousand references to
-// temperature, but those temperatures are all currently in degrees Celsius. You don't want to convert everything by hand,
-// so you've decided to write a function, celsius_to_romer() that takes a temperature in degrees Celsius and returns
-// the equivalent temperature in degrees Rømer.
+//  17
 function celsius_to_romer($temp) {
   return $temp * floatval(21/40) + 7.5;
 }
 
-//  18 (LVL 8) "Jenny's Secret Message" - Jenny has written a function that returns a greeting for a user. However,
-// she's in love with Johnny, and would like to greet him slightly different. She added a special case to her function,
-// but she made a mistake.
-// Can you help her?
+//  18 
 function greet($name) {
     if ($name == 'Johnny') {
         return "Hello, my love!";
@@ -170,12 +151,7 @@ function greet($name) {
     }
 }
 
-//  19 (LVL 8) "Pre-FizzBuzz Workout #1" - Your inputs: a positive integer, n, greater than or equal to one. n is provided,
-// you have NO CONTROL over its value.
-
-// Your expected outputs: an array of positive integers from 1 to n
-
-// Your job is to write an algorithm that gets you from the input to the output.
+//  19 
 function pre_fizz($n) {
   $output = [];
   for ($x = 1; $x <= $n; $x++) {
@@ -183,31 +159,11 @@ function pre_fizz($n) {
   }
   return $output;
 }
-// Alternate Solution - Better Refactoring.. . . Duh. haha.
 function pre_fizz(int $n): array {
   return range(1, $n);
 }
 
-// 20 (LVL 6!!!) "Rectangle into Squares" - The drawing below gives an idea of how to cut a given
-// "true" rectangle into squares ("true" rectangle meaning that the two dimensions are different).
-
-// You will be given two dimensions
-//
-// a positive integer length (parameter named lng)
-// a positive integer width (parameter named wdth)
-// You will return an array with the size of each of the squares.
-//
-//   sqInRect(5, 3) should return [3, 2, 1, 1]
-//   sqInRect(3, 5) should return [3, 2, 1, 1]
-//   Note:
-//
-// lng == wdth as a starting case would be an entirely different problem and the drawing is planned to be
-// interpreted with lng != wdth. See kata, Square into Squares. Protect trees!.
-//
-// When the initial parameters are so that lng == wdth, the solution [lng] would be the most obvious but not in
-// the spirit of this kata so, in that case, return None/nil/null/Nothing. Return {} with C++.
-//
-// In that case the returned structure of C will have its sz component equal to 0. (See the "Solution" and "Examples" tabs)
+// 20
 function sqInRect($lng, $wdth) {
   $arr = [];
     if ($lng === $wdth) {
@@ -225,13 +181,12 @@ function sqInRect($lng, $wdth) {
   return $arr;
 }
 
-//  21 (LVL 8) "Remove exclamation marks" - Write a function that removes all exclamation marks from string.
+//  21
 function remove_exclamation_marks($string) {
   return preg_replace('/!/', '', $string);
 }
 
-//  22 (LVL 8) "Fake Binary" - Given a string of digits,
-// you should replace any digit below 5 with '0' and any digit 5 and above with '1'. Return the resulting string.
+//  22
 function fake_bin(string $s): string {
   $s = str_split($s);
   foreach($s as &$num){
@@ -246,16 +201,7 @@ function fake_bin(string $s): string {
   return $s;
 }
 
-//  23 (LVL 8) "How Many Lightsabers Do You Own?" - (NOTE: Added argument ='', to make pass)
-// Inspired by the development team at Vooza, write the function howManyLightsabersDoYouOwn that
-//
-// accepts the name of a programmer, and
-// returns the number of lightsabers owned by that person.
-// The only person who owns lightsabers is Zach, by the way. He owns 18, which is an awesome number of lightsabers. Anyone else owns 0.
-//
-// No starting help here -- you'll need to know how to write a function that accepts a parameter and returns a value based on that parameter.
-//
-// ```c# Kata.HowManyLightsabersDoYouOwn("Adam") // => 0 Kata.HowManyLightsabersDoYouOwn("Zach") // => 18
+//  23
 function howManyLightsabersDoYouOwn($name = '') {
     if ($name === 'Zach') {
       return 18;
@@ -265,13 +211,12 @@ function howManyLightsabersDoYouOwn($name = '') {
     };
 };
 
-//  24 (LVL 8) "String Repeat" - Write a function that repeats a string n number of times.
+//  24
 function repeatStr($n, $str) {
   return str_repeat($str, $n);
 }
 
-//  25 (LVL 8) "Simple calculator" - NOTE: Better refactoring then last time using case blocks.
-//  `                                Write a function that takes a string operator and performs operations with it.
+//  25 
 function calculator($a, $b, $sign) {
   if (is_string ($a) || is_string ($b)) {  return 'unknown value'; }
   switch ($sign) {
